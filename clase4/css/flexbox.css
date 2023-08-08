@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(152, 88, 212);
+    color: #fff;
+    font-family: Montserrat, sans-serif;
+    font-size: 1.2em;
+    width: 780px;
+    margin: auto;
+}
+
+#contenedor{
+    background-color: #636363;
+    height: 380px;
+    margin-bottom: 64px;
+
+    display: flex;
+    /* habilita el sistema de contenedores flexibles
+        hace que los elementos CONTENIDOS
+        se ubiquen uno al lado del otro 
+    */
+    /* justify-content: start; /* predeterminado: a la izquierda */
+    /* justify-content: end; /* a la derecha */
+    /* justify-content: center; */ 
+    justify-content: space-between;
+}
+
+#contenedor2{
+    background-color: #636363;
+    height: 380px;
+    margin-bottom: 64px;
+
+    display: flex;
+    /* align-items: start; /* predeterminado: arriba */
+    /* align-items: end; /* abajo */
+    align-items: center;
+}
+
+#contenedor3{
+    background-color: #636363;
+    height: 380px;
+    margin-bottom: 64px;
+
+    display: flex;
+    justify-content: space-between;
+
+    align-items: center;
+}
+
+article{
+    width: 180px;
+    height: 180px;
+    background-color: #298675;
+    text-align: center;
+}
+

@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600&display=swap");
+
+body{
+    background-color: #2a2828;
+    color: rgb(251, 173, 118);
+    font-family: Montserrat, sans-serif;
+    font-size: 1.5em;
+}
+
+#naranja{
+    background-color: #f2b97f;
+    width: 128px;
+    height: 128px;
+    margin-left: 48px;
+    margin-bottom: 52px;
+}
+#amarillo{
+    background-color: #ecf27f;
+    width: 128px;
+    height: 128px;   
+    margin: auto; /* centrar una caja */
+}
+#verde{
+    background-color: #83f27f;
+    width: 128px;
+    height: 128px;   
+    margin: 64px;
+}

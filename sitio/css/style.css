@@ -27,10 +27,72 @@ header{
     align-items: center;
 }
 
+
     header a{
         color: #3c3c3c;
         font-weight: normal;
     }
     header a img{
         vertical-align: middle;
+        margin: 0px 16px;
     }
+
+
+    header nav a{
+        padding: 8px;
+    }
+
+/* contenido principal */
+main{
+    width: 1100px;
+    margin: auto; /* centrar un contenedor */
+}
+
+/* sección hero-banner */    
+    #hero-banner{
+        height: 450px;
+        background-image: url(../imgs/hero-banner.jpg);
+        background-position: center center;
+
+        display: flex;
+        align-items: center;
+        padding-left: 160px;
+    }
+        #hero-banner h1{
+            font-size: 32px;
+            width: 288px;
+            color: #fff;
+        }
+
+/* seccion Promos */
+#promos{
+    height: 486px;
+    background-color: #FFF3E9;
+    margin-top: 56px;
+    padding: 32px 56px 0px 56px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+    #promos h2{
+        width: 100%;
+        font-weight: normal;
+    }
+
+    #promos article{
+        width: 272px;
+        height: 342px;
+        background-color: #fff;
+    }
+        #promos article img{
+            padding: 8px 8px 0px 8px;
+        }
+
+        #promos article h3,
+        #promos article p
+        {
+            margin: 16px 16px 0px 16px;
+            color: #3c3c3c;
+        }
+
